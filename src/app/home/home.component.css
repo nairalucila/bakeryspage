@@ -1,0 +1,19 @@
+/* .carousel, .carousel-inner > .carousel-item > img {
+    height: 95%;
+  } */
+
+.title-home{
+    font-size: 200px;
+}
+
+.container-text{
+    background-color: black;
+    /* opacity: 0.5; */
+    width: 7rem;
+    height: 5rem;
+    z-index: 1000;
+}
+
+.container-rest-home{
+    background-color:#6e43a1;
+}
