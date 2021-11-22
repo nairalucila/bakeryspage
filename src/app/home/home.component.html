@@ -1,12 +1,12 @@
-<div id="carouselExampleSlidesOnly" class="carousel carousel-dark slide" data-bs-ride="carousel">
+<div id="carouselSlider" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-inner">
 
-    <div class="carousel-item active" data-bs-interval="500" >
+    <!-- <div class="carousel-item active" data-bs-interval="500">
       <img
         src="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
         class="d-block w-95" alt="mostrador_de_panaderia">
-    </div>
-    <div class="carousel-item">
+    </div> -->
+    <div class="carousel-item active">
       <img
         src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80"
         class="d-block w-100" alt="mostrador_de_panaderia_frontal">
@@ -25,30 +25,78 @@
     <h1>Look up the menu</h1>
 
   </div>
-<!-- CARDS MENU -->
-  <div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="https://images.unsplash.com/photo-1464195157370-5b596406ff80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3Jvc3NhaW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <!-- CARDS MENU -->
+  <div id="menu" class="container">
+    <div class="row justify-content-between">
+      <div class="card col " style="width: 18rem;">
+        <img
+          src="https://images.unsplash.com/photo-1464195157370-5b596406ff80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3Jvc3NhaW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
       </div>
-    </div>
 
-    <div class="card" style="width: 18rem;">
-      <img src="https://images.unsplash.com/photo-1464195157370-5b596406ff80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3Jvc3NhaW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="card col" style="width: 18rem;">
+        <img
+          src="https://images.unsplash.com/photo-1464195157370-5b596406ff80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3Jvc3NhaW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
       </div>
-    </div>
 
-    <div class="card" style="width: 18rem;">
-      <img src="https://images.unsplash.com/photo-1464195157370-5b596406ff80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3Jvc3NhaW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="card col" style="width: 18rem;">
+        <img
+          src="https://images.unsplash.com/photo-1464195157370-5b596406ff80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3Jvc3NhaW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Dueños -->
+<div class="container-fluid background-container">
+  <div class="container-modal">
+
+    <h1>Send us your opinion</h1>
+
+    <button type="button" class="btn btn-primary space-button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+      data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Haznos saber tu opinion</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label">Message:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Send message</button>
+          </div>
+        </div>
       </div>
     </div>
 
   </div>
-  
 </div>
