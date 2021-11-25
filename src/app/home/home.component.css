@@ -1,22 +1,26 @@
-/* .carousel, .carousel-inner > .carousel-item > img {
-    height: 95%;
-  } */
-
 .title-home{
     font-size: 200px;
 }
 
-.container-text{
-    background-color: black;
-    /* opacity: 0.5; */
-    width: 7rem;
-    height: 5rem;
-    z-index: 1000;
+.title-slider-bakery{
+    color: white;
 }
 
-.container-rest-home{
-    background-color:#6e43a1;
+.title-slider-background{
+    background-color: black;
+    opacity: 0.9; 
+    width: 31rem;
+    height: 7rem;
+    margin: auto;
+    padding: 1rem;
 }
+
+.button-comun{
+    margin-top: 1rem;
+    background-color:red;
+    color:white;
+}
+
 
 .background-container{
 background-color: #5446a1;

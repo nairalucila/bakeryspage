@@ -1,31 +1,29 @@
 <div id="carouselSlider" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-inner">
+    <div class="carousel-caption" style="z-index: 1000;">
 
-    <!-- <div class="carousel-item active" data-bs-interval="500">
-      <img
-        src="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
-        class="d-block w-95" alt="mostrador_de_panaderia">
-    </div> -->
+      <div class="title-slider-background">
+        <h1 class="title-slider-bakery">Bienvenidos a Bakery</h1>
+        <p class="title-slider-bakery">Some representative placeholder content for the second slide.</p>
+      </div>
+
+      <button type="button" class="btn button-comun" data-bs-toggle="modal" data-bs-target="#exampleModal"
+        data-bs-whatever="@getbootstrap">Pedidos aquí</button>
+    </div>
     <div class="carousel-item active">
       <img
         src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80"
         class="d-block w-100" alt="mostrador_de_panaderia_frontal">
     </div>
-    <div class=" container-text">
-      <div class="carousel-caption d-none d-md-block">
-        <h1 style="z-index: 1000;">Welcome to the Bakery</h1>
-        <p>Some representative placeholder content for the second slide.</p>
 
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-      data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
-      </div>
-    </div>
   </div>
 </div>
 
 <!-- Menu -->
-
- 
-
+<div id="menu">
+  <app-menu2></app-menu2>
+</div>
 <!-- Dueños -->
-
+<div id="mensajes">
+  <app-mensajes2></app-mensajes2>
+</div>
