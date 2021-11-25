@@ -7,7 +7,7 @@
 }
 
 .title-slider-background{
-    background-color: black;
+    background-color: #020314;
     opacity: 0.9; 
     width: 31rem;
     height: 7rem;
@@ -17,7 +17,7 @@
 
 .button-comun{
     margin-top: 1rem;
-    background-color:red;
+    background-color:#a597ea;
     color:white;
 }
 
@@ -25,9 +25,4 @@
 .background-container{
 background-color: #5446a1;
 /*padding: 7rem;*/
-}
-
-.space-button{
-    margin: 5rem;
-    
 }
