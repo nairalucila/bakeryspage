@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Mensajes2Component implements OnInit {
 
-  constructor() { }
+  nombreMnsj: string;
+
+  constructor() { 
+    this.nombreMnsj = "@Bakerys";
+   
+  }
 
   ngOnInit(): void {
   }
